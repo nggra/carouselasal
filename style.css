@@ -1,0 +1,29 @@
+.carousel-caption {
+    bottom: 240px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: yellow;
+}
+.carousel-caption p{
+    margin: auto;
+    font-size: 18px;
+    line-height: 1,9;
+    color: black;
+    font-weight: 500;
+}
+.carousel-inner :before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.about img{
+    width: 100%;
+}
